@@ -2,7 +2,7 @@
   <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
 
   <PropertyGroup>
-    <TargetFrameworks>net40;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>net40;netcoreapp2.1</TargetFrameworks>
     <Platforms>x64;x86</Platforms>
     <Configurations>DebugMono;DebugMonoPY3;ReleaseMono;ReleaseMonoPY3;DebugWin;DebugWinPY3;ReleaseWin;ReleaseWinPY3</Configurations>
     <OutputType Condition="'$(TargetFramework)' != 'net40' OR '$(PYTHONNET_VS_ENV)' == 'true'">Exe</OutputType>
